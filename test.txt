@@ -1,1 +1,2 @@
 hello text:Feature-2
+hello feature 2. Now ready to be merged to master branch.
