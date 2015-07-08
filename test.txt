@@ -1,2 +1,4 @@
-hello text:Feature-2
+hello text:Feature-2, is the super feature.
 hello feature 2. Now ready to be merged to master branch.
+
+hello now I did some changes.
