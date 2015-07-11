@@ -1,0 +1,46 @@
+<html>
+	<head>
+	<style type="text/css">
+	img {
+		
+		margin:20px;
+		hight:100px;
+		width:100px;
+	}
+	.inlineblock {
+		display: inline-block;
+		margin:20px;
+	}
+	body{
+		margin:20px;
+	}
+	</style>
+<script type="text/javascript">
+	window.onload=init;
+	function init () {
+	 	var imgTag = document.getElementById("myimg");
+	 	imgTag.onclick=changeImg;
+	}
+
+	function changeImg () {
+		var imgTag = document.getElementById("myimg");
+		imgTag.src="../img/AOLG10.jpg";
+	}
+</script>
+	</head>
+
+	<body>
+		<div>
+			<img class="inlineblock" src="../img/AOLG9.jpg" id="one">
+			<img class="inlineblock" src="../img/AOLG9.jpg" id="two">
+			<img class="inlineblock" src="../img/AOLG9.jpg" id="three">
+
+		</div>
+		<div>
+			<img class="inlineblock" src="../img/AOLG9.jpg" id="four">
+			<img class="inlineblock" src="../img/AOLG9.jpg" id="five">
+			<img class="inlineblock" src="../img/AOLG9.jpg" id="six">
+
+		</div>
+	</body>
+</html>
